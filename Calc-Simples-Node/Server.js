@@ -38,7 +38,7 @@ app.get('/divi/:A/:B', (req,res) =>{
 
     let div = A / B;
 
-    res.send("o resultado da multiplicacao é : " + div)
+    res.send("o resultado da divisao é : " + div)
 });
 
 app.listen(3000, () => {
@@ -47,4 +47,5 @@ app.listen(3000, () => {
     console.log('http://localhost:3000/subtracao/6/2');
     console.log('http://localhost:3000/mult/6/2');
     console.log('http://localhost:3000/divi/6/2');
+
 }); 
